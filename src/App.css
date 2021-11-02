@@ -1,14 +1,43 @@
-h1 {
+h2 {
   font-size: 20px;
   color: white;
   font-weight: bold;
+  padding-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+  padding-top: 50px;
 }
 
 .moviesList {
   display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+
+/*Hide scrollbar for Chrome, Safari and Opera */
+.moviesList::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.moviesList {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .container {
   background-color: black;
-  padding: 40px;
+  padding: 10px 40px;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  height: 100px;
+}
+
+.footer {
+  height: 200px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }

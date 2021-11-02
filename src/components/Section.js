@@ -14,7 +14,7 @@ const Section = () => {
       {data.map((movies, index) => {
         return (
           <>
-            <h1>{movies.category}</h1>
+            <h2>{movies.category}</h2>
             <div class="moviesList">
               {movies.images.map((pic, index) => {
                 return <img src={pic} alt="" />;

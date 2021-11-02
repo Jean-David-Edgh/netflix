@@ -1,5 +1,7 @@
 const Footer = () => {
-  return <p>Netflix by JD</p>;
+  return (
+    <div className="footer">Tout ça, c'est fait à la main par JD ! WESH !</div>
+  );
 };
 
 export default Footer;
