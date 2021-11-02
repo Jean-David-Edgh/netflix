@@ -5,12 +5,6 @@ let array = data.map((elem, index) => {
   return elem;
 });
 
-let cover = (img) => {
-  for (let i = 0; i < array.length; i++) {
-    const element = array[i];
-  }
-};
-
 const FilmList = () => {
   return (
     <div className="film-list">
