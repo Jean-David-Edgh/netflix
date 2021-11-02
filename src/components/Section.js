@@ -1,6 +1,3 @@
-import FilmList from "./FilmList";
-import Category from "./Category";
-
 import data from "../assets/data.json";
 // const arrayOfNames = [{ name: "Bastien" }, { name: "Tom" }, { name: "Farid" }];
 
